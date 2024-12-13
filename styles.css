@@ -1,41 +1,38 @@
 .star {
   position: relative;
-  display: block;
-  color: yellow;
+  display: inline-block;
   width: 0;
   height: 0;
-  border-right: 20px solid transparent;
-  border-bottom: 14px solid yellow;
-  border-left: 20px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #ff0;
+  border-left: 100px solid transparent;
   transform: rotate(35deg);
 }
 
 .star:before {
   content: '';
   position: absolute;
-  top: -11px;
-  left: -16px;
+  top: -45px;
+  left: -65px;
   display: block;
-  color: yellow;
   width: 0;
   height: 0;
-  border-bottom: 14px solid yellow;
-  border-left: 8px solid transparent;
-  border-right: 8px solid transparent;
+  border-bottom: 80px solid #ff0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
   transform: rotate(-35deg);
 }
 
 .star:after {
   content: '';
   position: absolute;
-  top: 2px;
-  left: -20px;
+  top: 3px;
+  left: -105px;
   display: block;
-  color: yellow;
   width: 0;
   height: 0;
-  border-right: 20px solid transparent;
-  border-bottom: 14px solid yellow;
-  border-left: 20px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #ff0;
+  border-left: 100px solid transparent;
   transform: rotate(-70deg);
 }
