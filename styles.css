@@ -1,38 +1,42 @@
+/* CSS to create a yellow star shape */
+
 .star {
-  position: relative;
   display: inline-block;
-  width: 0;
-  height: 0;
-  border-right: 100px solid transparent;
-  border-bottom: 70px solid #ff0;
-  border-left: 100px solid transparent;
+  position: relative;
+  color: yellow;
+  width: 0px;
+  height: 0px;
+  border-right: 50px solid transparent;
+  border-bottom: 35px solid yellow;
+  border-left: 50px solid transparent;
   transform: rotate(35deg);
 }
 
 .star:before {
-  content: '';
+  border-bottom: 35px solid yellow;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
   position: absolute;
-  top: -45px;
-  left: -65px;
-  display: block;
-  width: 0;
   height: 0;
-  border-bottom: 80px solid #ff0;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
+  width: 0;
+  top: -22px;
+  left: -33px;
+  display: block;
+  content: '';
   transform: rotate(-35deg);
 }
 
 .star:after {
-  content: '';
   position: absolute;
-  top: 3px;
-  left: -105px;
   display: block;
-  width: 0;
-  height: 0;
-  border-right: 100px solid transparent;
-  border-bottom: 70px solid #ff0;
-  border-left: 100px solid transparent;
+  color: yellow;
+  top: 3px;
+  left: -65px;
+  width: 0px;
+  height: 0px;
+  border-right: 50px solid transparent;
+  border-bottom: 35px solid yellow;
+  border-left: 50px solid transparent;
   transform: rotate(-70deg);
+  content: '';
 }
